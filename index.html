@@ -1,150 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amala B | Portfolio</title>
 
-    <!-- Link to your own CSS -->
-    <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
 
-    <!-- Animate CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+<body>
 
-    <!-- AOS animation -->
-    <link
-      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <div id="container">
-      <!-- Navbar -->
-      <nav>
-        <img
-          id="logo"
-          src="./imagesmy/Rose Gold Black Elegant Luxury Circle Beauty Logo.png"
-          alt="logo"
-        />
-        <ul>
-          <li class="listitem"><a class="link" href="#home">Home</a></li>
-          <li class="listitem"><a class="link" href="#contact">Contact</a></li>
-          <li class="listitem"><a class="link" href="#About">About</a></li>
-          <li class="listitem"><a class="link" href="#skill">Skills</a></li>
-        </ul>
-      </nav>
-
-      <!-- Home section -->
-      <section id="home">
-        <div class="homeleft">
-          <h1 class="animate__animated animate__rubberBand" id="username">Hiiii I am Amala</h1>
-          <span id="web">An aspiring web developer</span>
-          <a class="resume" href="./imagesmy/Blue and White Simple Marketing Manager Resume.pdf" download>RESUME</a>
-        </div>
-        <div class="homeright">
-          <p id="welcome">Welcome to my digital space. Explore my work and journey as a web developer</p>
-          <img
-            class="girl"
-            src="./imagesmy/360_F_833849841_s9ikrcxCtGcEzMtVCp4cFpnUKhMJRkWK-removebg-preview.png"
-            alt="girl"
-          />
-        </div>
-      </section>
-
-      <!-- About section -->
-      <section id="About">
-        <div class="aboutme">
-          <div class="aboutcontent">
-            <h2 id="intro">Introducing</h2>
-            <h2 id="introduction">About Me</h2>
-            <p class="aboutpara">
-              A passionate and creative web developer with a love for designing clean, user-friendly interfaces. I enjoy turning ideas into beautiful, responsive websites that make a real impact. Always curious and eager to learn new technologies, I focus on creating experiences that connect with people. Beyond coding, I love exploring new designs, learning about tech trends, and helping others through my work.
-            </p>
-          </div>
-          <div class="aboutimg">
-            <img id="lap" src="./imagesmy/425-4256054_free-cartoon-laptop-clipart-hd-png-download-removebg-preview.png" alt="laptop" />
-            <img id="chair" src="./imagesmy/3d-cartoon-woman-sitting-on-chair-illustration-isolated-on-white-background-2E8PD9H-removebg-preview.png" alt="chair" />
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills section -->
-      <section id="skill">
-        <div class="myskill">
-          <h2 id="skillname">My Skills</h2>
-          <div class="skillboxes">
-            <div class="skillbox animate__animated animate__heartBeat">CSS</div>
-            <div class="skillbox animate__animated animate__heartBeat">HTML</div>
-            <div class="skillbox animate__animated animate__heartBeat">JavaScript</div>
-            <div class="skillbox animate__animated animate__heartBeat">C</div>
-          </div>
-          <div class="circles">
-            <div data-aos="fade-up" class="circle" id="c1"><span>80%</span></div>
-            <div data-aos="fade-up" class="circle" id="c2"><span>80%</span></div>
-            <div data-aos="fade-up" class="circle" id="c3"><span>30%</span></div>
-            <div data-aos="fade-up" class="circle" id="c4"><span>50%</span></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact section -->
-      <section id="contact">
-        <div class="mycontacts">
-          <h2 id="connect">Let’s connect</h2>
-          <div class="cont">
-            <span><i class="fa-solid fa-phone"></i> Phone: 9061450995</span>
-            <span><i class="fa-solid fa-envelope"></i> amalab396@gmail.com</span>
-            <span><i class="fa-solid fa-location-dot"></i> Kochi, Kerala</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Social icons -->
-      <section id="icons">
-        <div class="iconcollection">
-          <div class="icon">
-            <a href="https://www.linkedin.com/in/amala-bindu" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
-          </div>
-          <div class="icon">
-            <a href="https://www.instagram.com/o_d_d_ba_l_l?igsh=OWZ4aWl5c2N5YmQ=" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
-          </div>
-          <div class="icon">
-            <a href="https://github.com/HP14S" target="_blank"><i class="fa-brands fa-github brands"></i></a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer>
-        <p id="copyright">&copy; Amala B Portfolio - July 2025, All Rights Reserved</p>
-        <div class="icon uparrow">
-          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
-        </div>
-      </footer>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <img id="logo" src="./imagesmy/Rose Gold Black Elegant Luxury Circle Beauty Logo.png" alt="logo" />
+      <span class="brand-name">Amala B</span>
     </div>
 
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="home-left">
+      <h1>Hi, I'm <span class="highlight">Amala</span></h1>
+      <p class="subtitle">Aspiring Frontend Developer</p>
+      <p class="intro">
+        I build clean, responsive websites using HTML, CSS, Bootstrap, Tailwind — and React for dynamic interfaces.
+      </p>
+      <a class="resume" href="./imagesmy/amalanewresume.docx" download>Download Resume</a>
+    </div>
+
+    <div class="home-right">
+      <img class="girl" src="./imagesmy/360_F_833849841_s9ikrcxCtGcEzMtVCp4cFpnUKhMJRkWK-removebg-preview.png" alt="girl" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="About">
+    <div class="aboutme">
+      <div class="aboutcontent">
+        <h2 id="intro">Introducing</h2>
+        <h2 id="introduction">About Me</h2>
+        <p class="aboutpara">
+          A passionate and creative web developer with a love for designing clean, user-friendly interfaces.
+          I enjoy turning ideas into beautiful, responsive websites that make a real impact. Always curious and eager to learn new technologies, I focus on creating experiences that connect with people.
+          Beyond coding, I love exploring new designs, learning about tech trends, and helping others through my work.
+        </p>
+      </div>
+
+      <div class="aboutimg">
+        <img id="lap" src="./imagesmy/425-4256054_free-cartoon-laptop-clipart-hd-png-download-removebg-preview.png" alt="laptop" />
+        <img id="chair" src="./imagesmy/3d-cartoon-woman-sitting-on-chair-illustration-isolated-on-white-background-2E8PD9H-removebg-preview.png" alt="chair" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skill-circles">
+      <div class="circle">HTML</div>
+      <div class="circle">CSS</div>
+      <div class="circle">Bootstrap</div>
+      <div class="circle">Tailwind</div>
+      <div class="circle">JavaScript</div>
+      <div class="circle">React</div>
+      <div class="circle">Node.js</div>
+    </div>
+  </section>
+
+  <!-- WORK  -->
+  <section id="work">
+    <h2 class="section-title">Work & Projects</h2>
+
+    <div class="work-container">
+
+  <div class="work-card">
+  <h3>Lixara</h3>
+  <p>A simple responsive jewellery website with elegant layout and product sections.</p>
+  <p class="tech">Technologies: HTML, CSS, Bootstrap</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/lixara-v1" class="code-btn">View Code</a>
+    <a href="https://lixara-v1.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Novora</h3>
+  <p>A modern landing page for a fictional brand with smooth scrolling and responsive design.</p>
+  <p class="tech">Technologies: HTML, CSS, Bootstrap</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/Novora-v1" class="code-btn">View Code</a>
+    <a href="https://novora-v1.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Poultry Website</h3>
+  <p>A clean informational site for poultry services with sections for products and contact.</p>
+  <p class="tech">Technologies: HTML, CSS, Bootstrap</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/poultry-website" class="code-btn">View Code</a>
+    <a href="https://poultry-website-brown.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>BMI Calculator</h3>
+  <p>A simple BMI calculator with input fields and dynamic result display.</p>
+  <p class="tech">Technologies: HTML, CSS, JavaScript,Bootstrap</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/body-mass-index-calculator.git" class="code-btn">View Code</a>
+    <!-- <a href="https://simple-react-website-mauve.vercel.app/" class="demo-btn">View Demo</a> -->
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Duck Water Gun Game</h3>
+  <p>A fun mini‑game featuring three characters: a duck, a water and gun </p>
+  <p class="tech">Technologies: HTML, CSS, JavaScript,Bootstrap</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/duck-water-gun-game" class="code-btn">View Code</a>
+    <a href="https://duck-water-gun-game.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Chatting Application</h3>
+  <p>A basic real-time chat interface with message input and display.</p>
+  <p class="tech">Technologies: HTML, CSS, JavaScript,API</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/Chatting-Application" class="code-btn">View Code</a>
+    <a href="https://chatting-application-drab.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Happy Pockets Travel</h3>
+  <p>A travel-themed website created using Lovable AI</p>
+  <p class="tech">Technologies:HTML, CSS, JavaScript,React.js,Next.js </p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/happy-pockets-travel" class="code-btn">View Code</a>
+    <a href="https://happy-pockets-travel.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+<div class="work-card">
+  <h3>Resume Builder</h3>
+  <p>A simple tool that lets users enter details and instantly generate a clean resume layout.</p>
+  <p class="tech">Technologies: HTML, CSS, React.js,json server</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/react-frontend.git" class="code-btn">View Code</a>
+    <a href="https://react-frontend-six-kappa.vercel.app/" class="demo-btn">View Demo</a>
+  </div>
+</div>
+
+
+
+<div class="work-card">
+  <h3>Ecommerce Website</h3>
+  <p>A basic ecommerce frontend with product listings, clean UI, and responsive layout.</p>
+  <p class="tech">Technologies: HTML, CSS, React,Json server</p>
+  <div class="buttons">
+    <a href="https://github.com/HP14S/ecommerce-frontend" class="code-btn">View Code</a>
+    <!-- <a href="https://ecommerce-frontend-psi.vercel.app/" class="demo-btn">View Demo</a> -->
+  </div>
+</div>
+
+
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Let’s Connect</h2>
+
+    <div class="contact-details">
+      <span><i class="fa-solid fa-phone"></i> 9061450995</span>
+      <span><i class="fa-solid fa-envelope"></i> amalab396@gmail.com</span>
+      <span><i class="fa-solid fa-location-dot"></i> Kochi, Kerala</span>
+    </div>
+
+    <div class="iconcollection">
+      <div class="icon"><a href="https://www.linkedin.com/in/amala-bindu" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a></div>
+      <div class="icon"><a href="https://www.instagram.com/o_d_d_ba_l_l" target="_blank"><i class="fa-brands fa-instagram brands"></i></a></div>
+      <div class="icon"><a href="https://github.com/HP14S" target="_blank"><i class="fa-brands fa-github brands"></i></a></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Amala B Portfolio. All Rights Reserved.</p>
+    <a href="#home" class="up-arrow"><i class="fa-solid fa-angle-up"></i></a>
+  </footer>
+
+</body>
 </html>
